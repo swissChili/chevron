@@ -1,11 +1,23 @@
 .hero {
-	min-height: 100vh!important;
+	min-height: 100vh;
+	margin-top: none;
+	margin-bottom: none;
 }
 
 
 .banner {
-	background-image: url("/images/refinery.png");
+	background-image: url("./images/refinery.png");
 	background-repeat: no-repeat;
 	background-position: center, center;
 	background-size: cover;
+
+	display: flex;
+}
+
+.white {
+	color: #fff;
+}
+
+.banner h1 {
+	font-size: 3em;
 }
