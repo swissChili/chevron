@@ -24,3 +24,15 @@
 .banner h1 {
 	font-size: 3em;
 }
+
+#bigpointer {
+	cursor: zoom-in;
+}
+
+#bigvid {
+	cursor: zoom-out;
+}
+
+#bigvid * {
+	cursor: zoom-out;
+}
